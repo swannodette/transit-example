@@ -17,12 +17,12 @@
   :cljsbuild { 
     :builds [{:id "transit-example"
               :source-paths ["src/cljs"]
-              :compiler} {
-                          :output-to "resources/public/js/transit_example.js"
-                          :output-dir "resources/public/js/out"
-                          :optimizations :none
-                          :static-fns true}
-             :source-map true
+              :compiler {
+                :output-to "resources/public/js/transit_example.js"
+                :output-dir "resources/public/js/out"
+                :optimizations :none
+                :source-map true
+                :static-fns true}}
              {:id "transit-example-adv"
               :source-paths ["src/cljs"]
               :compiler {
