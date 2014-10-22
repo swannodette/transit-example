@@ -3,10 +3,11 @@
   :url "http://github.com/swannodette/transit-example"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2276"]
+                 [org.clojure/clojurescript "0.0-2371"]
                  [com.cognitect/transit-clj "0.8.229"]
                  [com.cognitect/transit-cljs "0.8.137"]
                  [bidi "1.10.4"]
+                 [fogus/ring-edn "0.2.0"]
                  [ring/ring "1.2.1" :exclusions [org.clojure/java.classpath]]]
 
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]
